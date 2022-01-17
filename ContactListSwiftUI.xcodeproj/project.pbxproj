@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E48D285278CA68800DF290B /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48D284278CA68800DF290B /* ContactList.swift */; };
+		8E48D287278CA69600DF290B /* NumberList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48D286278CA69600DF290B /* NumberList.swift */; };
+		8E48D289278CA6B100DF290B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E48D288278CA6B100DF290B /* Contact.swift */; };
 		8EE796C6278B04C5007A74DD /* ContactListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE796C5278B04C5007A74DD /* ContactListSwiftUIApp.swift */; };
 		8EE796C8278B04C5007A74DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE796C7278B04C5007A74DD /* ContentView.swift */; };
 		8EE796CA278B04C5007A74DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE796C9278B04C5007A74DD /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E48D284278CA68800DF290B /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		8E48D286278CA69600DF290B /* NumberList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberList.swift; sourceTree = "<group>"; };
+		8E48D288278CA6B100DF290B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		8EE796C2278B04C5007A74DD /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE796C5278B04C5007A74DD /* ContactListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftUIApp.swift; sourceTree = "<group>"; };
 		8EE796C7278B04C5007A74DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				8EE796C5278B04C5007A74DD /* ContactListSwiftUIApp.swift */,
 				8EE796C7278B04C5007A74DD /* ContentView.swift */,
+				8E48D284278CA68800DF290B /* ContactList.swift */,
+				8E48D286278CA69600DF290B /* NumberList.swift */,
+				8E48D288278CA6B100DF290B /* Contact.swift */,
 				8EE796C9278B04C5007A74DD /* Assets.xcassets */,
 				8EE796CB278B04C5007A74DD /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E48D287278CA69600DF290B /* NumberList.swift in Sources */,
+				8E48D285278CA68800DF290B /* ContactList.swift in Sources */,
+				8E48D289278CA6B100DF290B /* Contact.swift in Sources */,
 				8EE796C8278B04C5007A74DD /* ContentView.swift in Sources */,
 				8EE796C6278B04C5007A74DD /* ContactListSwiftUIApp.swift in Sources */,
 			);
