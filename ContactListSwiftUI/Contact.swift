@@ -41,7 +41,7 @@ class Contact: Identifiable {
     
     
     static func generationContact(id: Int) -> Contact {
-        let names = ["Tony", "Harry", "Ron", "Stven", "Ivan", "Sonya", "Vong", "Stas", "Jon", "Tim"].randomElement() ?? ""
+        let names = ["Tony", "Harry", "Ron", "Stvien", "Ivan", "Sonya", "Vong", "Stas", "Jon", "Tim"].randomElement() ?? ""
         let lastNames = ["Cook", "Stark", "Potter", "Strange", "Perlman", "Blade", "Chan", "Asafiev", "Pim", "Groznyi"].randomElement()  ?? ""
         let fullName = names+lastNames
         let number = generationNumber()
@@ -55,7 +55,7 @@ class Contact: Identifiable {
     }
     
     static func generationNumber() -> String {
-        guard let operatorNumber = [7999, 7927, 7977, 7966].randomElement() else { return ""}
+        guard let operatorNumber = [8999, 8927, 8977, 8966].randomElement() else { return ""}
         let numberPhone = "\(operatorNumber)" + "\(Int.random(in: 111111...999999))"
         
         return numberPhone

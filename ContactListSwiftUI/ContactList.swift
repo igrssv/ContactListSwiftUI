@@ -8,23 +8,24 @@
 import SwiftUI
 
 struct ContactList: View {
-    let contacts = Contact.generationContacts()
+    let contacts: [Contact]
     
     var body: some View {
-        VStack {
+        NavigationView {
             List(contacts) { contact in
-                HStack {
+                NavigationLink(
+                    destination: ContactProfile(contact: contact)) {
                     Text(contact.fullName)
-                    Spacer()
-                    Text ("\(contact.mail)")
                 }
             }
+            .listStyle(.plain)
+            .navigationTitle("Contact List")
         }
     }
 }
 
 struct ContactList_Previews: PreviewProvider {
     static var previews: some View {
-        ContactList()
+        ContactList(contacts: Contact.generationContacts())
     }
 }
