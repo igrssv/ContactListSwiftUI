@@ -19,14 +19,14 @@ struct ContactProfile: View {
                 Spacer()
                 
             }
-            HStack {
-                Image(systemName: "phone.fill")
-                Text(contact.number)
-            }
-            HStack {
-                Image(systemName: "mail.fill")
-                Text(contact.mail)
-            }
+            Label(
+                contact.number,
+                  systemImage: "phone.fill"
+            )
+            Label(
+                contact.mail,
+                  systemImage: "mail.fill"
+            )
         }
         .navigationTitle(contact.fullName)
     }

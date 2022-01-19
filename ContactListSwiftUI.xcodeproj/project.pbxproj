@@ -15,6 +15,7 @@
 		8EE796C8278B04C5007A74DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE796C7278B04C5007A74DD /* ContentView.swift */; };
 		8EE796CA278B04C5007A74DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE796C9278B04C5007A74DD /* Assets.xcassets */; };
 		8EE796CD278B04C5007A74DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE796CC278B04C5007A74DD /* Preview Assets.xcassets */; };
+		8EFB781C27989C47003B7539 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB781B27989C47003B7539 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8EE796C7278B04C5007A74DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EE796C9278B04C5007A74DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EE796CC278B04C5007A74DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EFB781B27989C47003B7539 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		8EE796B9278B04C5007A74DD = {
 			isa = PBXGroup;
 			children = (
+				8EFB781B27989C47003B7539 /* DataManager.swift */,
 				8EE796C4278B04C5007A74DD /* ContactListSwiftUI */,
 				8EE796C3278B04C5007A74DD /* Products */,
 			);
@@ -152,6 +155,7 @@
 				8E48D287278CA69600DF290B /* NumberList.swift in Sources */,
 				8E48D285278CA68800DF290B /* ContactList.swift in Sources */,
 				8EDB530F279747B300D1131A /* ContactProfile.swift in Sources */,
+				8EFB781C27989C47003B7539 /* DataManager.swift in Sources */,
 				8E48D289278CA6B100DF290B /* Contact.swift in Sources */,
 				8EE796C8278B04C5007A74DD /* ContentView.swift in Sources */,
 				8EE796C6278B04C5007A74DD /* ContactListSwiftUIApp.swift in Sources */,
